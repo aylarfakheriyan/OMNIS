@@ -94,6 +94,16 @@ Please verify:
 
             string answer = ExtractResponse(result);
 
+            // ===== LIMIT RESPONSE FOR DEMO =====
+            const int maxCharacters = 400;
+
+            if (answer.Length > maxCharacters)
+            {
+                answer = answer.Substring(0, maxCharacters).TrimEnd();
+                answer += "\n\n...";
+            }
+            // ================================
+
             MainThreadDispatcher.Run(() =>
             {
                 responseText.text = answer;
