@@ -13,7 +13,6 @@
 **Prototype v0.1 — Local LLM Integration**
 
 > An early Unity prototype demonstrating communication between Unity and a locally hosted Large Language Model (LLM) using Ollama.
-
 ---
 
 ## About
