@@ -1,11 +1,11 @@
 # OMNIS
 
 <p align="center">
-  <img src="assets/hero.png" alt="OMNIS Hero" width="100%">
+  <img src="Docs/hero.png" alt="OMNIS Hero" width="100%">
 </p>
 
 <p align="center">
-  <img src="assets/omnis-demo.gif" alt="OMNIS Demo" width="100%">
+  <img src="Docs/omnis-demo.gif" alt="OMNIS Demo" width="100%">
 </p>
 
 ## AI Cultural Mediator
