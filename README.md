@@ -1,5 +1,7 @@
 # OMNIS
 
+![OMNIS Demo](assets/omnis-demo.gif)
+
 ## AI Cultural Mediator
 
 **Prototype v0.1 — Local LLM Integration**
@@ -42,9 +44,7 @@ The current version establishes a working Unity-to-LLM pipeline using Ollama and
 
 🚧 Under Development
 
-Current Version
-
-**v0.1.0**
+**Current Version:** v0.1.0
 
 ---
 
