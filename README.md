@@ -1,6 +1,12 @@
 # OMNIS
 
-![OMNIS Demo](assets/omnis-demo.gif)
+<p align="center">
+  <img src="assets/hero.png" alt="OMNIS Hero" width="100%">
+</p>
+
+<p align="center">
+  <img src="assets/omnis-demo.gif" alt="OMNIS Demo" width="100%">
+</p>
 
 ## AI Cultural Mediator
 
@@ -12,20 +18,20 @@
 
 ## About
 
-OMNIS is an early Unity prototype that demonstrates how a Unity application can communicate with a locally hosted Large Language Model.
+OMNIS is an early Unity prototype exploring how AI can support cultural heritage interpretation through a Unity-based interactive interface.
 
-The current version establishes a working Unity-to-LLM pipeline using Ollama and serves as the first technical milestone of the OMNIS project.
+The current version demonstrates a complete Unity-to-LLM communication pipeline using Ollama and serves as the first technical milestone toward a broader vision of AI-assisted cultural mediation.
 
 ---
 
 ## Current Capabilities
 
-- Connect Unity to a local LLM
-- Send prompts from Unity
+- Connect Unity to a locally hosted LLM
+- Send prompts directly from Unity
 - Receive AI-generated responses
 - Configurable model selection
 - Dedicated system prompt
-- Local execution using Ollama
+- Fully local inference using Ollama
 
 ---
 
@@ -40,11 +46,16 @@ The current version establishes a working Unity-to-LLM pipeline using Ollama and
 
 ---
 
-## Status
+## Project Status
 
-🚧 Under Development
+🚧 **Prototype v0.1**
 
-**Current Version:** v0.1.0
+Current focus:
+
+- Unity ↔ Ollama integration
+- Prompt engineering
+- User interface prototype
+- Local AI inference
 
 ---
 
