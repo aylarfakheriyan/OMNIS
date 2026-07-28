@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 7b62f9c223bc34f49b9a46f299bf2c48
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Saol Display
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 28d406ef8f361b0458b7e59b17c1656f, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
