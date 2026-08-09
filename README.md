@@ -9,11 +9,11 @@ The project investigates the use of a locally hosted Large Language Model (LLM) 
 ---
 
 <p align="center">
-  <img src="Docs/omnis-ai-cultural-mediator.png" alt="OMNIS — AI Cultural Mediator by Aylar Fakherian" width="100%">
+  <img src="Docs-omnis-ai-cultural-mediator.png" alt="OMNIS — AI Cultural Mediator by Aylar Fakherian" width="100%">
 </p>
 
 <p align="center">
-  <img src="Docs/omnis-demo.gif" alt="OMNIS AI Cultural Mediator Unity Prototype Demo" width="100%">
+  <img src="Docs-omnis-demo.gif" alt="OMNIS AI Cultural Mediator Unity Prototype Demo" width="100%">
 </p>
 
 ---
