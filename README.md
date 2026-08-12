@@ -6,6 +6,15 @@ OMNIS is an early Research through Design (RtD) prototype exploring how AI-media
 
 The project investigates the use of a locally hosted Large Language Model (LLM) as an AI cultural mediator within an interactive system, focusing on how conversational interaction can contribute to culturally informed digital experiences.
 
+## Interactive Web Demonstrator
+
+A public interactive demonstrator for OMNIS — AI Cultural Mediator.
+
+**[Explore the OMNIS Interactive Experience →](https://aylarfakheriyan.github.io/OMNIS/)**
+
+The web demonstrator presents the research concept through an accessible
+interactive interface, while the original technical prototype is implemented
+in Unity using Ollama and a locally hosted Qwen2.5 3B model.
 ---
 
 <p align="center">
