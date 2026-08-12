@@ -7,9 +7,15 @@
     <title>OMNIS — AI Cultural Mediator | Aylar Fakherian</title>
 
     <meta name="description" content="OMNIS is a Research through Design prototype by Aylar Fakherian exploring AI-mediated interaction and Persian cultural heritage through an interactive digital experience.">
+
     <meta name="author" content="Aylar Fakherian">
+
     <meta name="keywords" content="Aylar Fakherian, OMNIS, AI Cultural Mediator, Research through Design, AI-mediated interaction, Digital Cultural Heritage, Human-Centred Design, Unity, Ollama, Qwen">
 
+    <!-- Google Search Console Verification -->
+    <meta name="google-site-verification" content="g14jzEKq8l_ZRjvf_O7y236-1r0MkT2d7XwhH6N3zEQ">
+
+    <!-- Canonical URL -->
     <link rel="canonical" href="https://aylarfakheriyan.github.io/OMNIS/">
 
     <!-- Open Graph -->
@@ -19,7 +25,7 @@
     <meta property="og:description" content="A Research through Design prototype exploring AI-mediated interaction and Persian cultural heritage.">
     <meta property="og:image" content="https://raw.githubusercontent.com/aylarfakheriyan/OMNIS/main/Docs/hero.png">
 
-    <!-- Twitter / LinkedIn -->
+    <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="OMNIS — AI Cultural Mediator | Aylar Fakherian">
     <meta name="twitter:description" content="A Research through Design prototype exploring AI-mediated interaction and Persian cultural heritage.">
@@ -38,9 +44,13 @@
             --user: #172337;
         }
 
-        * { box-sizing: border-box; }
+        * {
+            box-sizing: border-box;
+        }
 
-        html { scroll-behavior: smooth; }
+        html {
+            scroll-behavior: smooth;
+        }
 
         body {
             margin: 0;
@@ -51,7 +61,10 @@
             line-height: 1.6;
         }
 
-        a { color: inherit; text-decoration: none; }
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
 
         .container {
             width: min(1120px, calc(100% - 40px));
@@ -87,9 +100,13 @@
             font-size: 14px;
         }
 
-        .nav-links a:hover { color: var(--text); }
+        .nav-links a:hover {
+            color: var(--text);
+        }
 
-        .hero { padding: 92px 0 72px; }
+        .hero {
+            padding: 92px 0 72px;
+        }
 
         .eyebrow {
             display: inline-flex;
@@ -118,7 +135,9 @@
             letter-spacing: -0.045em;
         }
 
-        .hero h1 span { color: var(--accent); }
+        .hero h1 span {
+            color: var(--accent);
+        }
 
         .hero-subtitle {
             max-width: 730px;
@@ -144,7 +163,9 @@
             font-size: 13px;
         }
 
-        .demo-section { padding: 30px 0 100px; }
+        .demo-section {
+            padding: 30px 0 100px;
+        }
 
         .demo {
             border: 1px solid var(--line);
@@ -199,8 +220,15 @@
         }
 
         @keyframes appear {
-            from { opacity: 0; transform: translateY(5px); }
-            to { opacity: 1; transform: translateY(0); }
+            from {
+                opacity: 0;
+                transform: translateY(5px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
 
         .message-label {
@@ -224,9 +252,13 @@
             border-radius: 16px;
         }
 
-        .message.user .message-label { color: #8ea4c6; }
+        .message.user .message-label {
+            color: #8ea4c6;
+        }
 
-        .message.omnis .message-content { color: #d5dbe3; }
+        .message.omnis .message-content {
+            color: #d5dbe3;
+        }
 
         .suggestions {
             display: flex;
@@ -273,7 +305,9 @@
             font: inherit;
         }
 
-        .input-area input:focus { border-color: #3b5e99; }
+        .input-area input:focus {
+            border-color: #3b5e99;
+        }
 
         .send {
             border: 0;
@@ -285,7 +319,9 @@
             font-weight: 700;
         }
 
-        .send:hover { background: var(--accent-hover); }
+        .send:hover {
+            background: var(--accent-hover);
+        }
 
         section.content-section {
             padding: 90px 0;
@@ -364,19 +400,52 @@
             margin-top: 15px;
         }
 
-        .footer-links a:hover { color: white; }
+        .footer-links a:hover {
+            color: white;
+        }
 
         @media (max-width: 760px) {
-            .container { width: min(100% - 28px, 1120px); }
-            .nav-links { display: none; }
-            .hero { padding-top: 65px; }
-            .chat { padding: 22px 18px; }
-            .suggestions { padding: 0 18px 20px; }
-            .demo-note { margin-left: 18px; margin-right: 18px; }
-            .input-area { padding: 12px; }
-            .send { padding: 0 15px; }
-            .grid { grid-template-columns: 1fr; gap: 30px; }
-            .principles { grid-template-columns: 1fr; }
+            .container {
+                width: min(100% - 28px, 1120px);
+            }
+
+            .nav-links {
+                display: none;
+            }
+
+            .hero {
+                padding-top: 65px;
+            }
+
+            .chat {
+                padding: 22px 18px;
+            }
+
+            .suggestions {
+                padding: 0 18px 20px;
+            }
+
+            .demo-note {
+                margin-left: 18px;
+                margin-right: 18px;
+            }
+
+            .input-area {
+                padding: 12px;
+            }
+
+            .send {
+                padding: 0 15px;
+            }
+
+            .grid {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+
+            .principles {
+                grid-template-columns: 1fr;
+            }
         }
     </style>
 </head>
@@ -385,20 +454,32 @@
 
 <nav>
     <div class="container nav-inner">
+
         <a class="brand" href="#">OMNIS</a>
+
         <div class="nav-links">
             <a href="#demo">Demo</a>
             <a href="#research">Research</a>
             <a href="#about">About</a>
-            <a href="https://github.com/aylarfakheriyan/OMNIS" target="_blank" rel="noopener">GitHub</a>
+
+            <a
+                href="https://github.com/aylarfakheriyan/OMNIS"
+                target="_blank"
+                rel="noopener"
+            >
+                GitHub
+            </a>
         </div>
+
     </div>
 </nav>
 
 <main>
 
 <header class="hero">
+
     <div class="container">
+
         <div class="eyebrow">
             <span class="dot"></span>
             Research through Design Prototype
@@ -420,55 +501,104 @@
             <span class="tag">AI-mediated Interaction</span>
             <span class="tag">Digital Cultural Heritage</span>
         </div>
+
     </div>
+
 </header>
 
+
 <section class="demo-section" id="demo">
+
     <div class="container">
 
         <div class="demo">
 
             <div class="demo-top">
-                <div class="demo-title">OMNIS / Interactive Demonstrator</div>
+
+                <div class="demo-title">
+                    OMNIS / Interactive Demonstrator
+                </div>
+
                 <div class="status">
                     <span class="status-dot"></span>
                     Prototype
                 </div>
+
             </div>
+
 
             <div class="chat" id="chat">
 
                 <div class="message omnis">
-                    <div class="message-label">OMNIS</div>
+
+                    <div class="message-label">
+                        OMNIS
+                    </div>
+
                     <div class="message-content">Welcome. I am OMNIS, an experimental cultural mediator.
 
 Choose a question below or ask about Persian cultural heritage.</div>
+
                 </div>
 
             </div>
 
+
             <div class="suggestions">
 
-                <button class="suggestion" type="button"
-                        data-id="simurgh">Who is the Simurgh?</button>
+                <button
+                    class="suggestion"
+                    type="button"
+                    data-id="simurgh"
+                >
+                    Who is the Simurgh?
+                </button>
 
-                <button class="suggestion" type="button"
-                        data-id="symbolism">What does the Simurgh symbolize?</button>
+                <button
+                    class="suggestion"
+                    type="button"
+                    data-id="symbolism"
+                >
+                    What does the Simurgh symbolize?
+                </button>
 
-                <button class="suggestion" type="button"
-                        data-id="ferdowsi">Tell me about Ferdowsi.</button>
+                <button
+                    class="suggestion"
+                    type="button"
+                    data-id="ferdowsi"
+                >
+                    Tell me about Ferdowsi.
+                </button>
 
-                <button class="suggestion" type="button"
-                        data-id="shahnameh">Why is the Shahnameh important?</button>
+                <button
+                    class="suggestion"
+                    type="button"
+                    data-id="shahnameh"
+                >
+                    Why is the Shahnameh important?
+                </button>
 
             </div>
 
+
             <form class="input-area" id="chatForm">
-                <input id="userInput" type="text"
-                       autocomplete="off"
-                       placeholder="Ask OMNIS about Persian cultural heritage...">
-                <button class="send" type="submit">Send</button>
+
+                <input
+                    id="userInput"
+                    type="text"
+                    autocomplete="off"
+                    placeholder="Ask OMNIS about Persian cultural heritage..."
+                >
+
+                <button
+                    class="send"
+                    type="submit"
+                >
+                    Send
+                </button>
+
             </form>
+
 
             <div class="demo-note">
                 Public web demonstrator. The original OMNIS technical prototype
@@ -476,17 +606,31 @@ Choose a question below or ask about Persian cultural heritage.</div>
             </div>
 
         </div>
+
     </div>
+
 </section>
 
+
 <section class="content-section" id="research">
+
     <div class="container grid">
-        <div>
-            <div class="section-label">Research</div>
-            <h2>Designing AI as a mediator.</h2>
-        </div>
 
         <div>
+
+            <div class="section-label">
+                Research
+            </div>
+
+            <h2>
+                Designing AI as a mediator.
+            </h2>
+
+        </div>
+
+
+        <div>
+
             <p>
                 OMNIS is an early Research through Design (RtD) prototype
                 investigating how an existing Large Language Model can be
@@ -500,86 +644,158 @@ Choose a question below or ask about Persian cultural heritage.</div>
                 into an interactive system and examining how conversational
                 interaction can shape encounters with cultural content.
             </p>
+
         </div>
+
     </div>
+
 </section>
 
+
 <section class="content-section" id="about">
+
     <div class="container grid">
+
         <div>
-            <div class="section-label">Design Principles</div>
-            <h2>Human-centred cultural interaction.</h2>
+
+            <div class="section-label">
+                Design Principles
+            </div>
+
+            <h2>
+                Human-centred cultural interaction.
+            </h2>
+
         </div>
+
 
         <div class="principles">
 
             <div class="principle">
-                <strong>Human Agency</strong>
+
+                <strong>
+                    Human Agency
+                </strong>
+
                 <span>
                     The system supports exploration rather than replacing
                     human interpretation.
                 </span>
+
             </div>
 
+
             <div class="principle">
-                <strong>Cultural Context</strong>
+
+                <strong>
+                    Cultural Context
+                </strong>
+
                 <span>
                     Interaction is constrained toward culturally relevant
                     content and narratives.
                 </span>
+
             </div>
 
+
             <div class="principle">
-                <strong>Interpretive Openness</strong>
+
+                <strong>
+                    Interpretive Openness
+                </strong>
+
                 <span>
                     Cultural encounters can support multiple ways of
                     understanding and engaging with meaning.
                 </span>
+
             </div>
 
+
             <div class="principle">
-                <strong>AI Transparency</strong>
+
+                <strong>
+                    AI Transparency
+                </strong>
+
                 <span>
                     AI is presented as a mediator within the experience,
                     not as an authoritative cultural source.
                 </span>
+
             </div>
 
         </div>
+
     </div>
+
 </section>
 
 </main>
 
+
 <footer>
+
     <div class="container">
-        <strong>OMNIS — AI Cultural Mediator</strong>
-        <div>Research through Design prototype by Aylar Fakherian.</div>
+
+        <strong>
+            OMNIS — AI Cultural Mediator
+        </strong>
+
+        <div>
+            Research through Design prototype by Aylar Fakherian.
+        </div>
+
 
         <div class="footer-links">
-            <a href="https://github.com/aylarfakheriyan/OMNIS"
-               target="_blank" rel="noopener">GitHub Repository</a>
 
-            <a href="https://aylarfakheriyan.github.io/OMNIS/"
-               target="_blank" rel="noopener">Interactive Web Demonstrator</a>
+            <a
+                href="https://github.com/aylarfakheriyan/OMNIS"
+                target="_blank"
+                rel="noopener"
+            >
+                GitHub Repository
+            </a>
 
-            <a href="https://www.linkedin.com/in/aylarfakherian/"
-               target="_blank" rel="noopener">LinkedIn</a>
+
+            <a
+                href="https://aylarfakheriyan.github.io/OMNIS/"
+                target="_blank"
+                rel="noopener"
+            >
+                Interactive Web Demonstrator
+            </a>
+
+
+            <a
+                href="https://www.linkedin.com/in/aylarfakherian/"
+                target="_blank"
+                rel="noopener"
+            >
+                LinkedIn
+            </a>
+
         </div>
+
     </div>
+
 </footer>
 
+
 <script>
+
     /*
      * OMNIS Public Web Demonstrator
      *
-     * The four suggested questions use fixed, curated responses.
+     * The suggested questions use fixed, curated responses.
      * This keeps the public demonstrator functional without exposing
      * the local Ollama instance used by the Unity prototype.
      *
-     * Typed questions are matched by keywords and can also return
+     * Typed questions are matched by keywords and can return
      * the same curated research responses.
      */
+
 
     const curatedResponses = {
 
@@ -604,7 +820,9 @@ For this project, Ferdowsi's work provides an important cultural and narrative c
 Beyond its literary significance, it has played a major role in preserving and transmitting stories, characters, values, and cultural memory across generations.
 
 Its narratives continue to provide material for contemporary forms of interpretation, including visual art, animation, games, immersive media, and interactive experiences.`
+
     };
+
 
     const fallback = `I can currently respond to a focused set of cultural questions in this public demonstrator.
 
@@ -612,91 +830,177 @@ Try asking about the Simurgh, its symbolism, Ferdowsi, or the Shahnameh.
 
 The full technical OMNIS prototype uses Unity, Ollama, and a locally hosted Qwen2.5 3B model.`;
 
+
     const chat = document.getElementById("chat");
     const input = document.getElementById("userInput");
     const form = document.getElementById("chatForm");
 
+
     function addMessage(label, text, type) {
+
         const wrapper = document.createElement("div");
+
         wrapper.className = "message " + type;
 
+
         const labelElement = document.createElement("div");
+
         labelElement.className = "message-label";
+
         labelElement.textContent = label;
 
+
         const content = document.createElement("div");
+
         content.className = "message-content";
+
         content.textContent = text;
 
+
         wrapper.appendChild(labelElement);
+
         wrapper.appendChild(content);
+
         chat.appendChild(wrapper);
+
         chat.scrollTop = chat.scrollHeight;
+
     }
+
 
     function findResponse(question) {
+
         const q = question.toLowerCase();
 
-        if (q.includes("simurgh") && (
-            q.includes("who") ||
-            q.includes("what is") ||
-            q.includes("what's") ||
-            q.includes("tell me")
-        )) {
+
+        if (
+            q.includes("simurgh") &&
+            (
+                q.includes("who") ||
+                q.includes("what is") ||
+                q.includes("what's") ||
+                q.includes("tell me")
+            )
+        ) {
+
             return curatedResponses.simurgh;
+
         }
 
-        if (q.includes("simurgh") && (
-            q.includes("symbol") ||
-            q.includes("meaning") ||
-            q.includes("represent") ||
-            q.includes("signif")
-        )) {
+
+        if (
+            q.includes("simurgh") &&
+            (
+                q.includes("symbol") ||
+                q.includes("meaning") ||
+                q.includes("represent") ||
+                q.includes("signif")
+            )
+        ) {
+
             return curatedResponses.symbolism;
+
         }
 
-        if (q.includes("ferdowsi") || q.includes("poet")) {
+
+        if (
+            q.includes("ferdowsi") ||
+            q.includes("poet")
+        ) {
+
             return curatedResponses.ferdowsi;
+
         }
 
-        if (q.includes("shahnameh") || q.includes("shahnama") || q.includes("book of kings")) {
+
+        if (
+            q.includes("shahnameh") ||
+            q.includes("shahnama") ||
+            q.includes("book of kings")
+        ) {
+
             return curatedResponses.shahnameh;
+
         }
+
 
         return fallback;
+
     }
+
 
     function respondWithId(id, question) {
+
         addMessage("You", question, "user");
 
+
         setTimeout(() => {
-            addMessage("OMNIS", curatedResponses[id], "omnis");
+
+            addMessage(
+                "OMNIS",
+                curatedResponses[id],
+                "omnis"
+            );
+
         }, 450);
+
     }
 
-    document.querySelectorAll(".suggestion").forEach(button => {
-        button.addEventListener("click", () => {
-            const id = button.dataset.id;
-            const question = button.textContent.trim();
-            respondWithId(id, question);
+
+    document
+        .querySelectorAll(".suggestion")
+        .forEach(button => {
+
+            button.addEventListener("click", () => {
+
+                const id = button.dataset.id;
+
+                const question = button.textContent.trim();
+
+                respondWithId(id, question);
+
+            });
+
         });
-    });
+
 
     form.addEventListener("submit", function(event) {
+
         event.preventDefault();
 
-        const question = input.value.trim();
-        if (!question) return;
 
-        addMessage("You", question, "user");
+        const question = input.value.trim();
+
+
+        if (!question) {
+            return;
+        }
+
+
+        addMessage(
+            "You",
+            question,
+            "user"
+        );
+
 
         setTimeout(() => {
-            addMessage("OMNIS", findResponse(question), "omnis");
+
+            addMessage(
+                "OMNIS",
+                findResponse(question),
+                "omnis"
+            );
+
         }, 450);
 
+
         input.value = "";
+
         input.focus();
+
     });
+
 </script>
 
 </body>
